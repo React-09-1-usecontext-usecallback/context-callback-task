@@ -5,7 +5,7 @@ function ChannelStatistics() {
   // NOTE: use Context to get info about entered contacts
 
   return (
-    <p>
+    <p  data-testid="statistics">
       count of channels: <br />
       'your last channel is: '
     </p>

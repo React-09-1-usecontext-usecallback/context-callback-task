@@ -17,7 +17,8 @@ const Contacts = () => {
       </div>
       <div>
         <button
-          className={stylesCenter.addButton}          
+          className={stylesCenter.addButton}
+          data-testid="add-button"          
         >
           <img src="plus.svg" alt="plus logo" />
           <span className={stylesCenter.addButtonText}>

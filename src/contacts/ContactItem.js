@@ -38,6 +38,7 @@ const ContactItem = ({index}) => {
           Деталі
         </p>
         <textarea
+          data-testid="details"
           maxLength="100"
           rows="2"          
           className={stylescenter.detailsChannelInput}          
