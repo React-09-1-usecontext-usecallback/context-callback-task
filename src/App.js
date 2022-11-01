@@ -8,8 +8,7 @@ export const ContactContext = React.createContext();
 
 function App() {
 
-// NOTE: Keep state of contacts here and pass it to Contacts component as a prop
-// NOTE: This way you will be able to use it in ChannelStatistics using Context  
+// NOTE: Use context provider in this component 
 
   return (
     <div className="grid-container">
